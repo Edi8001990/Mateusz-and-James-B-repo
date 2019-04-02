@@ -57,6 +57,8 @@ def number_to_short_month_name(no1)
     return "Jan"
   elsif (no1 == 4)
     return "Apr"
+  elsif (no1 == 10)
+    return "Oct"
 
   end
 end

@@ -76,11 +76,11 @@ require_relative('../my_functions')
           fourth_month_string = number_to_short_month_name( 4 )
           assert_equal( "Apr", fourth_month_string )
         end
-      #
-      #   def test_substring__month_10()
-      #     tenth_month_string = number_to_short_month_name( 10 )
-      #     assert_equal( "Oct", tenth_month_string )
-      #   end
+
+        def test_substring__month_10()
+          tenth_month_string = number_to_short_month_name( 10 )
+          assert_equal( "Oct", tenth_month_string )
+        end
       #
       #   #Further
       #
