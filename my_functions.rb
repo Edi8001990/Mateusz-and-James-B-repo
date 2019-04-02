@@ -62,3 +62,7 @@ def number_to_short_month_name(no1)
 
   end
 end
+
+def volume_of_cube(num)
+  return num ** 3
+end
