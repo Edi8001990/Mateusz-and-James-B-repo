@@ -95,14 +95,16 @@ require_relative('../my_functions')
           volume = volume_of_sphere(1)
           assert_equal(3.14 * 4.0/3,volume)
         end
-      #
-      #   #Given a value in farenheit, convert this into celsius.
-      #   def test_fahrenheit_to_celsius()
-      #     #add test code here
-      #   end
-      #
-      #
-      #
+
+        #Given a value in farenheit, convert this into celsius.
+        def test_fahrenheit_to_celsius()
+          celsius = fahrenheit_to_celsius(1)
+
+          assert_equal(-17 ,celsius.round)
+        end
+
+
+
 
 
 
